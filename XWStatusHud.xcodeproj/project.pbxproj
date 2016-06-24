@@ -14,6 +14,7 @@
 		EA9AB04E1D1CCFB000ACB074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA9AB04C1D1CCFB000ACB074 /* LaunchScreen.storyboard */; };
 		EA9AB0591D1CCFB000ACB074 /* XWStatusHudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9AB0581D1CCFB000ACB074 /* XWStatusHudTests.swift */; };
 		EA9AB0641D1CCFB000ACB074 /* XWStatusHudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9AB0631D1CCFB000ACB074 /* XWStatusHudUITests.swift */; };
+		EA9AB0731D1CD02900ACB074 /* XWStatusHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9AB0721D1CD02900ACB074 /* XWStatusHud.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		EA9AB05F1D1CCFB000ACB074 /* XWStatusHudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XWStatusHudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA9AB0631D1CCFB000ACB074 /* XWStatusHudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XWStatusHudUITests.swift; sourceTree = "<group>"; };
 		EA9AB0651D1CCFB000ACB074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA9AB0721D1CD02900ACB074 /* XWStatusHud.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XWStatusHud.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		EA9AB0421D1CCFB000ACB074 /* XWStatusHud */ = {
 			isa = PBXGroup;
 			children = (
+				EA9AB0711D1CD00900ACB074 /* XWStatusHud */,
 				EA9AB0431D1CCFB000ACB074 /* AppDelegate.swift */,
 				EA9AB0451D1CCFB000ACB074 /* ViewController.swift */,
 				EA9AB0471D1CCFB000ACB074 /* Main.storyboard */,
@@ -123,6 +126,22 @@
 				EA9AB0651D1CCFB000ACB074 /* Info.plist */,
 			);
 			path = XWStatusHudUITests;
+			sourceTree = "<group>";
+		};
+		EA9AB0711D1CD00900ACB074 /* XWStatusHud */ = {
+			isa = PBXGroup;
+			children = (
+				EA9AB0741D1CD2AF00ACB074 /* Depend */,
+				EA9AB0721D1CD02900ACB074 /* XWStatusHud.swift */,
+			);
+			path = XWStatusHud;
+			sourceTree = "<group>";
+		};
+		EA9AB0741D1CD2AF00ACB074 /* Depend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Depend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA9AB0731D1CD02900ACB074 /* XWStatusHud.swift in Sources */,
 				EA9AB0461D1CCFB000ACB074 /* ViewController.swift in Sources */,
 				EA9AB0441D1CCFB000ACB074 /* AppDelegate.swift in Sources */,
 			);
